@@ -1,259 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-
     font-family: Inter, Arial, sans-serif;
-
     color: #171a1e;
-
     background: #f4f5f6;
-
     font-synthesis: none;
-
     text-rendering: optimizeLegibility;
-
     font-smooth: always;
-
     --red: #e51b23;
-
     --dark: #080d12;
-
     --muted: #68717b;
-
     --line: #dfe2e5
 }
 
 * {
-
     box-sizing: border-box
 }
 
 html {
-
     scroll-behavior: smooth;
-
     scroll-padding-top: 90px
 }
 
 body {
-
     margin: 0;
-
     min-width: 320px
 }
 
 a {
-
     color: inherit;
-
     text-decoration: none
 }
 
 .container {
-
     width: min(1180px, calc(100% - 48px));
-
     margin: 0 auto
 }
 
 .topline {
-
     background: #05090d;
-
     color: #c8cdd2;
-
     font-size: 11px;
-
     letter-spacing: .12em;
-
     text-transform: uppercase
 }
 
 .topline-inner {
-
     height: 34px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between
 }
 
 .site-header {
-
     position: sticky;
-
     top: 0;
-
     z-index: 20;
-
     background: rgba(8, 13, 18, .97);
-
     border-bottom: 1px solid #273039;
-
     backdrop-filter: blur(12px)
 }
 
 .nav-wrap {
-
     height: 88px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     gap: 24px
 }
 
 .brand img {
-
     width: 150px;
-
     height: 70px;
-
     object-fit: contain
 }
 
 .main-nav {
-
     display: flex;
-
     align-items: center;
-
     gap: 25px;
-
     color: #e9ecef;
-
     font-size: 12px;
-
     font-weight: 700;
-
     text-transform: uppercase;
-
     letter-spacing: .06em
 }
 
 .main-nav a {
-
     transition: color .2s
 }
 
 .main-nav a:hover {
-
     color: #ff444a
 }
 
 .nav-cta,
 
 .button {
-
     display: inline-flex;
-
     align-items: center;
-
     justify-content: center;
-
     gap: 18px;
-
     font-size: 12px;
-
     font-weight: 800;
-
     letter-spacing: .06em;
-
     text-transform: uppercase;
-
     padding: 15px 20px;
-
     transition: transform .2s, background .2s
 }
 
 .nav-cta {
-
     background: var(--red);
-
     color: #fff
 }
 
 .nav-cta:hover,
 
 .button:hover {
-
     transform: translateY(-2px)
 }
 
 .hero {
-
     min-height: 690px;
-
     position: relative;
-
     display: flex;
-
     align-items: center;
-
     color: #fff;
-
     background: #080d12 url('/imagenes/soldadura.jpg') center/cover no-repeat;
-
     overflow: hidden
 }
 
 .hero-overlay {
-
     position: absolute;
-
     inset: 0;
-
     background: linear-gradient(90deg, rgba(4, 8, 12, .96) 0%, rgba(4, 8, 12, .83) 48%, rgba(4, 8, 12, .22) 100%), linear-gradient(0deg, rgba(4, 8, 12, .45), transparent 45%)
 }
 
 .hero-content {
-
     position: relative;
-
     z-index: 1;
-
     padding: 78px 0 62px
 }
 
 .eyebrow {
-
     display: flex;
-
     align-items: center;
-
     gap: 10px;
-
     color: #ff555a;
-
     font-size: 10px;
-
     font-weight: 800;
-
     letter-spacing: .2em;
-
     text-transform: uppercase;
-
     margin: 0 0 24px
 }
 
 .eyebrow span {
-
     display: inline-block;
-
     width: 28px;
-
     height: 2px;
-
     background: var(--red)
 }
 
 .eyebrow.dark {
-
     color: #555e67
 }
 
@@ -262,21 +170,13 @@ a {
 .section h2,
 
 .catalog-cta h2 {
-
     font-family: 'Barlow Condensed', Impact, sans-serif;
-
     font-size: clamp(58px, 7.5vw, 98px);
-
     font-weight: 800;
-
     line-height: .92;
-
     letter-spacing: -.02em;
-
     text-transform: uppercase;
-
     margin: 0;
-
     max-width: 760px
 }
 
@@ -285,271 +185,181 @@ a {
 .section h2 em,
 
 .catalog-cta h2 em {
-
     font-style: normal;
-
     color: var(--red)
 }
 
 .hero-copy {
-
     max-width: 560px;
-
     color: #d0d5da;
-
     font-size: 16px;
-
     line-height: 1.8;
-
     margin: 28px 0 30px
 }
 
 .hero-actions {
-
     display: flex;
-
     gap: 13px;
-
     flex-wrap: wrap
 }
 
 .button-red {
-
     background: var(--red);
-
     color: white
 }
 
 .button-red:hover {
-
     background: #c91018
 }
 
 .button-outline {
-
     border: 1px solid #aab0b5;
-
     color: white
 }
 
 .hero-proof {
-
     display: flex;
-
     gap: 0;
-
     margin-top: 70px;
-
     border-top: 1px solid rgba(255, 255, 255, .28);
-
     max-width: 670px;
-
     padding-top: 22px
 }
 
 .hero-proof div {
-
     padding: 0 28px;
-
     border-right: 1px solid rgba(255, 255, 255, .25);
-
     display: flex;
-
     flex-direction: column;
-
     gap: 5px
 }
 
 .hero-proof div:first-child {
-
     padding-left: 0
 }
 
 .hero-proof div:last-child {
-
     border: 0
 }
 
 .hero-proof strong {
-
     font-size: 17px;
-
     text-transform: uppercase
 }
 
 .hero-proof span {
-
     font-size: 10px;
-
     color: #b7bec5;
-
     text-transform: uppercase;
-
     letter-spacing: .1em
 }
 
 .hero-caption {
-
     position: absolute;
-
     right: 26px;
-
     bottom: 25px;
-
     color: #fff8;
-
     font-size: 9px;
-
     letter-spacing: .25em;
-
     writing-mode: vertical-rl
 }
 
 .section {
-
     padding: 105px 0
 }
 
 .intro {
-
     background: #f4f5f6
 }
 
 .intro-grid {
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     gap: 100px;
-
     align-items: start
 }
 
 .section h2,
 
 .catalog-cta h2 {
-
     font-size: clamp(46px, 5.5vw, 68px);
-
     color: #10151a
 }
 
 .intro-text {
-
     padding-top: 24px;
-
     color: #5d6670;
-
     font-size: 15px;
-
     line-height: 1.9
 }
 
 .intro-text p {
-
     margin: 0 0 17px
 }
 
 .text-link {
-
     display: inline-flex;
-
     gap: 16px;
-
     color: #171a1e;
-
     font-weight: 800;
-
     font-size: 12px;
-
     text-transform: uppercase;
-
     margin-top: 13px
 }
 
 .text-link span {
-
     color: var(--red);
-
     font-size: 18px
 }
 
 .stats {
-
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
-
     margin-top: 76px;
-
     border-top: 1px solid #d7dade;
-
     border-bottom: 1px solid #d7dade
 }
 
 .stats div {
-
     padding: 24px 20px;
-
     border-right: 1px solid #d7dade;
-
     display: flex;
-
     flex-direction: column;
-
     gap: 8px
 }
 
 .stats div:first-child {
-
     padding-left: 0
 }
 
 .stats div:last-child {
-
     border: 0
 }
 
 .stats strong {
-
     font-family: 'Barlow Condensed', sans-serif;
-
     font-size: 28px;
-
     text-transform: uppercase;
-
     color: #111820
 }
 
 .stats span {
-
     font-size: 11px;
-
     color: #717982;
-
     text-transform: uppercase;
-
     letter-spacing: .1em
 }
 
 .solutions {
-
     background: #0b1117;
-
     color: #fff
 }
 
 .section-heading {
-
     display: flex;
-
     align-items: end;
-
     justify-content: space-between;
-
     gap: 40px;
-
     margin-bottom: 48px
 }
 
@@ -558,12 +368,10 @@ a {
 .brands h2,
 
 .technical h2 {
-
     color: #fff
 }
 
 .section-heading>p {
-
     max-width: 330px;
 
     color: #aeb6be;
@@ -628,137 +436,86 @@ a {
 }
 
 .solution-image>span {
-
     position: absolute;
-
     left: 14px;
-
     top: 14px;
-
     background: var(--red);
-
     color: white;
-
     padding: 7px 10px;
-
     font-size: 10px;
-
     font-weight: 800
 }
 
 .solution-body {
-
     padding: 22px 20px 24px
 }
 
 .solution-body h3 {
-
     font-family: 'Barlow Condensed', sans-serif;
-
     font-size: 24px;
-
     text-transform: uppercase;
-
     margin: 0 0 10px
 }
 
 .solution-body p {
-
     min-height: 68px;
-
     color: #aeb6be;
-
     font-size: 12px;
-
     line-height: 1.7;
-
     margin: 0 0 20px
 }
 
 .solution-body a {
-
     color: #fff;
-
     font-size: 10px;
-
     font-weight: 800;
-
     text-transform: uppercase;
-
     letter-spacing: .08em
 }
 
 .solution-body a span {
-
     color: #ff444a;
-
     margin-left: 7px
 }
 
 .brands {
-
     background: #121920;
-
     color: #fff
 }
 
 .brands-heading {
-
     display: flex;
-
     justify-content: space-between;
-
     align-items: end;
-
     gap: 40px
 }
 
 .brands-heading p {
-
     max-width: 360px;
-
     color: #aeb6be;
-
     font-size: 13px;
-
     line-height: 1.8;
-
     margin-bottom: 8px
 }
 
 .brand-list {
-
     display: grid;
-
     grid-template-columns: repeat(7, 1fr);
-
     margin-top: 52px;
-
     border-top: 1px solid #39434c;
-
     border-bottom: 1px solid #39434c
 }
 
 .brand-list div {
-
     min-height: 95px;
-
     display: grid;
-
     place-items: center;
-
     padding: 10px;
-
     border-right: 1px solid #39434c;
-
     color: #f0f2f4;
-
     font-family: 'Barlow Condensed', sans-serif;
-
     font-weight: 700;
-
     font-size: 17px;
-
     text-align: center
 }
 
@@ -875,38 +632,26 @@ a {
 }
 
 .catalog-cta .catalog-inner>div>p:last-child {
-
     color: #ffe0e1;
-
     font-size: 13px;
-
     line-height: 1.7;
-
     max-width: 500px
 }
 
 .button-light {
-
     background: #fff;
-
     color: #171a1e;
-
     white-space: nowrap
 }
 
 .contact {
-
     background: #f4f5f6
 }
 
 .contact-grid {
-
     display: grid;
-
     grid-template-columns: 1fr .8fr;
-
     gap: 100px;
-
     align-items: center
 }
 
@@ -2236,257 +1981,201 @@ a {
 }
 
 .nav-install-button {
-
     position: relative;
-
     display: inline-flex;
-
     align-items: center;
-
     justify-content: center;
-
     gap: 11px;
-
     padding: 11px 19px;
-
     min-height: 54px;
-
     color: #fff;
-
     background: linear-gradient(135deg, #ff343b, #c9000b);
-
     border: 1px solid #ff6268;
-
     border-radius: 5px;
-
     cursor: pointer;
-
     overflow: hidden;
-
     box-shadow: 0 5px 18px rgba(229, 27, 35, .35);
-
     transition: all .3s ease;
-
 }
 
 .nav-install-button::before {
-
     content: "";
-
     position: absolute;
-
     top: 0;
-
     left: -120%;
-
     width: 70%;
-
     height: 100%;
-
     background: linear-gradient(110deg,
-
             transparent,
-
             rgba(255, 255, 255, .35),
-
             transparent);
-
     transform: skewX(-20deg);
-
     transition: left .6s ease;
-
 }
 
 .nav-install-button:hover::before {
-
     left: 150%;
-
 }
 
 .nav-install-button:hover {
-
     transform: translateY(-3px);
-
     box-shadow: 0 9px 28px rgba(229, 27, 35, .55);
-
     background: linear-gradient(135deg, #ff454b, #e0000c);
-
 }
 
 .install-icon {
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     animation: installBounce 1.8s infinite;
-
 }
 
 .install-text {
-
     display: flex;
-
     flex-direction: column;
-
     align-items: flex-start;
-
     font-size: 12px;
-
     font-weight: 900;
-
     letter-spacing: .7px;
-
     line-height: 1.3;
-
 }
 
 .install-text small {
-
     font-size: 9px;
-
     font-weight: 600;
-
     letter-spacing: 1.2px;
-
     opacity: .85;
-
 }
 
 .install-arrow {
-
     font-size: 18px;
-
     color: #fff;
-
 }
 
 @keyframes installBounce {
 
     0%,
-
     100% {
-
         transform: translateY(0);
-
     }
 
     50% {
-
         transform: translateY(-4px);
-
     }
-
 }
 
 @media (max-width: 900px) {
-
     .nav-install-button {
-
         padding: 10px 13px;
-
         min-height: 46px;
-
     }
 
     .install-text {
-
         font-size: 10px;
-
     }
-
 }
 
 .button.button-install {
-
     position: relative !important;
-
     display: inline-flex !important;
-
     align-items: center !important;
-
     justify-content: center !important;
-
     gap: 12px !important;
-
     min-height: 62px !important;
-
     padding: 0 28px !important;
-
     color: #ffffff !important;
-
     background: linear-gradient(135deg, #ff3038, #b9000b) !important;
-
     border: 1px solid #ff6268 !important;
-
     border-radius: 5px !important;
-
     font-size: 13px !important;
-
     font-weight: 900 !important;
-
     letter-spacing: 1px !important;
-
     text-transform: uppercase !important;
-
     cursor: pointer !important;
-
     box-shadow: 0 5px 22px rgba(229, 27, 35, .4) !important;
-
     transition: all .3s ease !important;
-
     animation: diaemexPulse 2.5s infinite;
-
 }
 
 .button.button-install span {
-
     font-size: 23px !important;
-
     color: #ffffff !important;
-
     font-weight: 900;
-
 }
 
 .button.button-install:hover {
-
     background: linear-gradient(135deg, #ff555c, #e0000c) !important;
-
     transform: translateY(-4px) scale(1.03) !important;
-
     box-shadow: 0 10px 30px rgba(229, 27, 35, .6) !important;
-
 }
 
 @keyframes diaemexPulse {
 
     0%,
-
     100% {
-
         box-shadow: 0 5px 22px rgba(229, 27, 35, .35);
-
     }
 
     50% {
 
         box-shadow: 0 5px 30px rgba(229, 27, 35, .7);
-
     }
-
 }
 
 @media (max-width: 600px) {
-
     .button.button-install {
-
         width: 100%;
-
         min-height: 55px !important;
-
     }
+}
 
+/* UBICACIÓN EN FOOTER DIAEMEX */
+
+.footer-main {
+    flex-wrap: wrap;
+}
+
+.footer-location {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 360px;
+    padding: 12px 15px;
+    background: #111820;
+    border-left: 3px solid #e51b23;
+}
+
+.footer-location-icon {
+    font-size: 25px;
+}
+
+.footer-location strong {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.footer-location p {
+    color: #aab1b8;
+    font-size: 11px;
+    line-height: 1.7;
+    margin: 7px 0;
+}
+
+.footer-location a {
+    color: #ff454c;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.footer-location a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+    .footer-location {
+        width: 100%;
+        max-width: 100%;
+    }
 }

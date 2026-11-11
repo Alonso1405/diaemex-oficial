@@ -507,8 +507,36 @@ function App() {
               <div className="contact-row">
                 <span className="contact-icon">✉</span>
                 <div>
-                  <small>Correo comercial</small>
+                  <small>Correo comercial principal</small>
                   <a href={`mailto:${CORREO}`}>{CORREO}</a>
+                </div>
+              </div>
+
+              <div className="contact-row">
+                <span className="contact-icon">✉</span>
+                <div>
+                  <small>Correo de gerencia</small>
+                  <a href="mailto:miguel.carranza5008@hotmail.com">
+                    miguel.carranza5008@hotmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div className="contact-row">
+                <span className="contact-icon">✉</span>
+                <div>
+                  <small>Correo empresarial</small>
+                  <a href="mailto:diaemex@terra.com.mx">diaemex@terra.com.mx</a>
+                </div>
+              </div>
+
+              <div className="contact-row">
+                <span className="contact-icon">✉</span>
+                <div>
+                  <small>Correo empresarial</small>
+                  <a href="mailto:diaemex@prodigy.net.mx">
+                    diaemex@prodigy.net.mx
+                  </a>
                 </div>
               </div>
               <div className="contact-row">
@@ -549,11 +577,34 @@ function App() {
           <a className="footer-brand" href="#inicio">
             <img src="/logo-diaemex.png" alt="DIAEMEX" />
           </a>
-          <p>Distribuidora de Aleaciones y Equipos Mexicanos, S.A. de C.V.</p>
+
+          <div className="footer-company">
+            <p>Distribuidora de Aleaciones y Equipos Mexicanos, S.A. de C.V.</p>
+          </div>
+
+          <div className="footer-location">
+            <span className="footer-location-icon">📍</span>
+            <div>
+              <strong>MATRIZ DIAEMEX</strong>
+              <p>
+                Olmo No. 46, Fracc. Jardines de Sta. Mónica, Tlalnepantla,
+                Estado de México, C.P. 54050
+              </p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Olmo+No.+46%2C+Fracc.+Jardines+de+Sta.+M%C3%B3nica%2C+Tlalnepantla%2C+Estado+de+M%C3%A9xico%2C+54050"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                📍 Ver ubicación en Google Maps
+              </a>
+            </div>
+          </div>
+
           <a href={CATALOGO_URL} target="_blank" rel="noreferrer">
             Consultar catálogo ↗
           </a>
         </div>
+
         <div className="container footer-bottom">
           <span>
             © {new Date().getFullYear()} DIAEMEX. Todos los derechos reservados.
