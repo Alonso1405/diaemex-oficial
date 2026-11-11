@@ -21,13 +21,11 @@
     --muted: #68717b;
 
     --line: #dfe2e5
-
 }
 
 * {
 
     box-sizing: border-box
-
 }
 
 html {
@@ -35,7 +33,6 @@ html {
     scroll-behavior: smooth;
 
     scroll-padding-top: 90px
-
 }
 
 body {
@@ -43,7 +40,6 @@ body {
     margin: 0;
 
     min-width: 320px
-
 }
 
 a {
@@ -51,7 +47,6 @@ a {
     color: inherit;
 
     text-decoration: none
-
 }
 
 .container {
@@ -59,7 +54,6 @@ a {
     width: min(1180px, calc(100% - 48px));
 
     margin: 0 auto
-
 }
 
 .topline {
@@ -73,7 +67,6 @@ a {
     letter-spacing: .12em;
 
     text-transform: uppercase
-
 }
 
 .topline-inner {
@@ -85,7 +78,6 @@ a {
     align-items: center;
 
     justify-content: space-between
-
 }
 
 .site-header {
@@ -101,7 +93,6 @@ a {
     border-bottom: 1px solid #273039;
 
     backdrop-filter: blur(12px)
-
 }
 
 .nav-wrap {
@@ -115,7 +106,6 @@ a {
     justify-content: space-between;
 
     gap: 24px
-
 }
 
 .brand img {
@@ -125,7 +115,6 @@ a {
     height: 70px;
 
     object-fit: contain
-
 }
 
 .main-nav {
@@ -145,19 +134,16 @@ a {
     text-transform: uppercase;
 
     letter-spacing: .06em
-
 }
 
 .main-nav a {
 
     transition: color .2s
-
 }
 
 .main-nav a:hover {
 
     color: #ff444a
-
 }
 
 .nav-cta,
@@ -183,7 +169,6 @@ a {
     padding: 15px 20px;
 
     transition: transform .2s, background .2s
-
 }
 
 .nav-cta {
@@ -191,7 +176,6 @@ a {
     background: var(--red);
 
     color: #fff
-
 }
 
 .nav-cta:hover,
@@ -199,7 +183,6 @@ a {
 .button:hover {
 
     transform: translateY(-2px)
-
 }
 
 .hero {
@@ -217,7 +200,6 @@ a {
     background: #080d12 url('/imagenes/soldadura.jpg') center/cover no-repeat;
 
     overflow: hidden
-
 }
 
 .hero-overlay {
@@ -227,7 +209,6 @@ a {
     inset: 0;
 
     background: linear-gradient(90deg, rgba(4, 8, 12, .96) 0%, rgba(4, 8, 12, .83) 48%, rgba(4, 8, 12, .22) 100%), linear-gradient(0deg, rgba(4, 8, 12, .45), transparent 45%)
-
 }
 
 .hero-content {
@@ -237,7 +218,6 @@ a {
     z-index: 1;
 
     padding: 78px 0 62px
-
 }
 
 .eyebrow {
@@ -259,7 +239,6 @@ a {
     text-transform: uppercase;
 
     margin: 0 0 24px
-
 }
 
 .eyebrow span {
@@ -271,13 +250,11 @@ a {
     height: 2px;
 
     background: var(--red)
-
 }
 
 .eyebrow.dark {
 
     color: #555e67
-
 }
 
 .hero h1,
@@ -301,7 +278,6 @@ a {
     margin: 0;
 
     max-width: 760px
-
 }
 
 .hero h1 em,
@@ -313,7 +289,6 @@ a {
     font-style: normal;
 
     color: var(--red)
-
 }
 
 .hero-copy {
@@ -327,7 +302,6 @@ a {
     line-height: 1.8;
 
     margin: 28px 0 30px
-
 }
 
 .hero-actions {
@@ -337,7 +311,6 @@ a {
     gap: 13px;
 
     flex-wrap: wrap
-
 }
 
 .button-red {
@@ -345,13 +318,11 @@ a {
     background: var(--red);
 
     color: white
-
 }
 
 .button-red:hover {
 
     background: #c91018
-
 }
 
 .button-outline {
@@ -359,7 +330,6 @@ a {
     border: 1px solid #aab0b5;
 
     color: white
-
 }
 
 .hero-proof {
@@ -375,7 +345,6 @@ a {
     max-width: 670px;
 
     padding-top: 22px
-
 }
 
 .hero-proof div {
@@ -389,19 +358,16 @@ a {
     flex-direction: column;
 
     gap: 5px
-
 }
 
 .hero-proof div:first-child {
 
     padding-left: 0
-
 }
 
 .hero-proof div:last-child {
 
     border: 0
-
 }
 
 .hero-proof strong {
@@ -409,7 +375,6 @@ a {
     font-size: 17px;
 
     text-transform: uppercase
-
 }
 
 .hero-proof span {
@@ -421,7 +386,6 @@ a {
     text-transform: uppercase;
 
     letter-spacing: .1em
-
 }
 
 .hero-caption {
@@ -439,19 +403,16 @@ a {
     letter-spacing: .25em;
 
     writing-mode: vertical-rl
-
 }
 
 .section {
 
     padding: 105px 0
-
 }
 
 .intro {
 
     background: #f4f5f6
-
 }
 
 .intro-grid {
@@ -463,7 +424,6 @@ a {
     gap: 100px;
 
     align-items: start
-
 }
 
 .section h2,
@@ -473,7 +433,6 @@ a {
     font-size: clamp(46px, 5.5vw, 68px);
 
     color: #10151a
-
 }
 
 .intro-text {
@@ -485,13 +444,11 @@ a {
     font-size: 15px;
 
     line-height: 1.9
-
 }
 
 .intro-text p {
 
     margin: 0 0 17px
-
 }
 
 .text-link {
@@ -509,7 +466,6 @@ a {
     text-transform: uppercase;
 
     margin-top: 13px
-
 }
 
 .text-link span {
@@ -517,7 +473,6 @@ a {
     color: var(--red);
 
     font-size: 18px
-
 }
 
 .stats {
@@ -531,7 +486,6 @@ a {
     border-top: 1px solid #d7dade;
 
     border-bottom: 1px solid #d7dade
-
 }
 
 .stats div {
@@ -545,19 +499,16 @@ a {
     flex-direction: column;
 
     gap: 8px
-
 }
 
 .stats div:first-child {
 
     padding-left: 0
-
 }
 
 .stats div:last-child {
 
     border: 0
-
 }
 
 .stats strong {
@@ -569,7 +520,6 @@ a {
     text-transform: uppercase;
 
     color: #111820
-
 }
 
 .stats span {
@@ -581,7 +531,6 @@ a {
     text-transform: uppercase;
 
     letter-spacing: .1em
-
 }
 
 .solutions {
@@ -589,7 +538,6 @@ a {
     background: #0b1117;
 
     color: #fff
-
 }
 
 .section-heading {
@@ -603,7 +551,6 @@ a {
     gap: 40px;
 
     margin-bottom: 48px
-
 }
 
 .solutions h2,
@@ -613,7 +560,6 @@ a {
 .technical h2 {
 
     color: #fff
-
 }
 
 .section-heading>p {
@@ -627,7 +573,6 @@ a {
     line-height: 1.8;
 
     margin: 0 0 8px
-
 }
 
 .solution-grid {
@@ -637,7 +582,6 @@ a {
     grid-template-columns: repeat(4, 1fr);
 
     gap: 18px
-
 }
 
 .solution-card {
@@ -647,7 +591,6 @@ a {
     border: 1px solid #29333d;
 
     transition: transform .25s, border-color .25s
-
 }
 
 .solution-card:hover {
@@ -655,7 +598,6 @@ a {
     transform: translateY(-6px);
 
     border-color: #e51b23
-
 }
 
 .solution-image {
@@ -665,7 +607,6 @@ a {
     position: relative;
 
     overflow: hidden
-
 }
 
 .solution-image img {
@@ -679,13 +620,11 @@ a {
     filter: saturate(.8);
 
     transition: transform .4s
-
 }
 
 .solution-card:hover img {
 
     transform: scale(1.06)
-
 }
 
 .solution-image>span {
@@ -705,13 +644,11 @@ a {
     font-size: 10px;
 
     font-weight: 800
-
 }
 
 .solution-body {
 
     padding: 22px 20px 24px
-
 }
 
 .solution-body h3 {
@@ -723,7 +660,6 @@ a {
     text-transform: uppercase;
 
     margin: 0 0 10px
-
 }
 
 .solution-body p {
@@ -737,7 +673,6 @@ a {
     line-height: 1.7;
 
     margin: 0 0 20px
-
 }
 
 .solution-body a {
@@ -751,7 +686,6 @@ a {
     text-transform: uppercase;
 
     letter-spacing: .08em
-
 }
 
 .solution-body a span {
@@ -759,7 +693,6 @@ a {
     color: #ff444a;
 
     margin-left: 7px
-
 }
 
 .brands {
@@ -767,7 +700,6 @@ a {
     background: #121920;
 
     color: #fff
-
 }
 
 .brands-heading {
@@ -779,7 +711,6 @@ a {
     align-items: end;
 
     gap: 40px
-
 }
 
 .brands-heading p {
@@ -793,7 +724,6 @@ a {
     line-height: 1.8;
 
     margin-bottom: 8px
-
 }
 
 .brand-list {
@@ -807,7 +737,6 @@ a {
     border-top: 1px solid #39434c;
 
     border-bottom: 1px solid #39434c
-
 }
 
 .brand-list div {
@@ -831,13 +760,11 @@ a {
     font-size: 17px;
 
     text-align: center
-
 }
 
 .brand-list div:last-child {
 
     border: 0
-
 }
 
 .brand-note {
@@ -847,7 +774,6 @@ a {
     font-size: 10px;
 
     margin-top: 15px
-
 }
 
 .technical {
@@ -861,13 +787,11 @@ a {
     color: #fff;
 
     padding: 0
-
 }
 
 .technical-image {
 
     min-height: 480px
-
 }
 
 .technical-image img {
@@ -881,7 +805,6 @@ a {
     display: block;
 
     filter: brightness(.8)
-
 }
 
 .technical-content {
@@ -889,13 +812,11 @@ a {
     padding: 90px max(40px, calc((100vw - 590px)/2)) 80px 70px;
 
     align-self: center
-
 }
 
 .technical h2 {
 
     font-size: clamp(42px, 4.5vw, 60px)
-
 }
 
 .technical-content>p:not(.eyebrow) {
@@ -909,7 +830,6 @@ a {
     max-width: 480px;
 
     margin: 24px 0 28px
-
 }
 
 .catalog-cta {
@@ -919,7 +839,6 @@ a {
     color: #fff;
 
     padding: 75px 0
-
 }
 
 .catalog-inner {
@@ -931,19 +850,16 @@ a {
     align-items: center;
 
     gap: 40px
-
 }
 
 .catalog-cta .eyebrow {
 
     color: #fff
-
 }
 
 .catalog-cta .eyebrow span {
 
     background: #fff
-
 }
 
 .catalog-cta h2 {
@@ -951,13 +867,11 @@ a {
     color: #fff;
 
     font-size: clamp(45px, 5vw, 65px)
-
 }
 
 .catalog-cta h2 em {
 
     color: #171a1e
-
 }
 
 .catalog-cta .catalog-inner>div>p:last-child {
@@ -969,7 +883,6 @@ a {
     line-height: 1.7;
 
     max-width: 500px
-
 }
 
 .button-light {
@@ -979,13 +892,11 @@ a {
     color: #171a1e;
 
     white-space: nowrap
-
 }
 
 .contact {
 
     background: #f4f5f6
-
 }
 
 .contact-grid {
@@ -997,7 +908,6 @@ a {
     gap: 100px;
 
     align-items: center
-
 }
 
 .contact-lead {
@@ -1011,7 +921,6 @@ a {
     max-width: 430px;
 
     margin-top: 26px
-
 }
 
 .contact-card {
@@ -1023,7 +932,6 @@ a {
     box-shadow: 0 15px 45px #1111;
 
     border-top: 4px solid var(--red)
-
 }
 
 .contact-row {
@@ -1037,7 +945,6 @@ a {
     padding: 17px 0;
 
     border-bottom: 1px solid #e7e9eb
-
 }
 
 .contact-icon {
@@ -1055,7 +962,6 @@ a {
     color: var(--red);
 
     font-size: 20px
-
 }
 
 .contact-row div {
@@ -1065,7 +971,6 @@ a {
     flex-direction: column;
 
     gap: 5px
-
 }
 
 .contact-row small {
@@ -1077,7 +982,6 @@ a {
     text-transform: uppercase;
 
     letter-spacing: .12em
-
 }
 
 .contact-row a {
@@ -1087,7 +991,6 @@ a {
     font-weight: 700;
 
     overflow-wrap: anywhere
-
 }
 
 .contact-button {
@@ -1095,7 +998,6 @@ a {
     width: 100%;
 
     margin-top: 24px
-
 }
 
 .footer {
@@ -1103,7 +1005,6 @@ a {
     background: #05090d;
 
     color: #fff
-
 }
 
 .footer-main {
@@ -1117,7 +1018,6 @@ a {
     justify-content: space-between;
 
     gap: 25px
-
 }
 
 .footer-brand img {
@@ -1127,7 +1027,6 @@ a {
     height: 80px;
 
     object-fit: contain
-
 }
 
 .footer-main p {
@@ -1135,7 +1034,6 @@ a {
     font-size: 11px;
 
     color: #aab1b8
-
 }
 
 .footer-main>a:last-child {
@@ -1147,7 +1045,6 @@ a {
     text-transform: uppercase;
 
     color: #fff
-
 }
 
 .footer-bottom {
@@ -1165,7 +1062,6 @@ a {
     color: #78828b;
 
     font-size: 10px
-
 }
 
 .floating-wa {
@@ -1199,7 +1095,6 @@ a {
     box-shadow: 0 5px 20px #0004;
 
     border: 3px solid #fff
-
 }
 
 @media(max-width:1000px) {
@@ -1209,49 +1104,41 @@ a {
         gap: 13px;
 
         font-size: 10px
-
     }
 
     .nav-wrap {
 
         gap: 12px
-
     }
 
     .brand img {
 
         width: 125px
-
     }
 
     .solution-grid {
 
         grid-template-columns: repeat(2, 1fr)
-
     }
 
     .technical-content {
 
         padding: 60px 35px
-
     }
 
     .brand-list {
 
         grid-template-columns: repeat(4, 1fr)
-
     }
 
     .brand-list div:nth-child(4) {
 
         border-right: 0
-
     }
 
     .brand-list div:nth-child(-n+4) {
 
         border-bottom: 1px solid #39434c
-
     }
 
 }
@@ -1261,19 +1148,16 @@ a {
     .container {
 
         width: min(100% - 32px, 540px)
-
     }
 
     .topline-inner {
 
         justify-content: center
-
     }
 
     .topline-inner span:last-child {
 
         display: none
-
     }
 
     .nav-wrap {
@@ -1285,7 +1169,6 @@ a {
         flex-wrap: wrap;
 
         padding: 8px 0 12px
-
     }
 
     .brand img {
@@ -1293,7 +1176,6 @@ a {
         width: 112px;
 
         height: 58px
-
     }
 
     .main-nav {
@@ -1309,13 +1191,11 @@ a {
         padding: 8px 0 2px;
 
         gap: 19px
-
     }
 
     .main-nav a {
 
         white-space: nowrap
-
     }
 
     .nav-cta {
@@ -1323,7 +1203,6 @@ a {
         font-size: 9px;
 
         padding: 12px
-
     }
 
     .hero {
@@ -1331,61 +1210,51 @@ a {
         min-height: 650px;
 
         background-position: 58% center
-
     }
 
     .hero-overlay {
 
         background: linear-gradient(90deg, rgba(4, 8, 12, .94), rgba(4, 8, 12, .68)), linear-gradient(0deg, rgba(4, 8, 12, .35), transparent)
-
     }
 
     .hero-content {
 
         padding: 65px 0 45px
-
     }
 
     .hero h1 {
 
         font-size: 60px
-
     }
 
     .hero-copy {
 
         font-size: 14px
-
     }
 
     .hero-proof {
 
         margin-top: 52px
-
     }
 
     .hero-proof div {
 
         padding: 0 12px
-
     }
 
     .hero-proof strong {
 
         font-size: 13px
-
     }
 
     .hero-proof span {
 
         font-size: 8px
-
     }
 
     .section {
 
         padding: 72px 0
-
     }
 
     .intro-grid,
@@ -1395,13 +1264,11 @@ a {
         grid-template-columns: 1fr;
 
         gap: 25px
-
     }
 
     .intro-text {
 
         padding-top: 0
-
     }
 
     .stats {
@@ -1409,25 +1276,21 @@ a {
         grid-template-columns: repeat(2, 1fr);
 
         margin-top: 45px
-
     }
 
     .stats div:nth-child(2) {
 
         border-right: 0
-
     }
 
     .stats div:nth-child(-n+2) {
 
         border-bottom: 1px solid #d7dade
-
     }
 
     .stats div:nth-child(3) {
 
         padding-left: 0
-
     }
 
     .section-heading,
@@ -1437,7 +1300,6 @@ a {
     .catalog-inner {
 
         display: block
-
     }
 
     .section-heading>p,
@@ -1445,25 +1307,21 @@ a {
     .brands-heading p {
 
         margin-top: 22px
-
     }
 
     .solution-grid {
 
         grid-template-columns: 1fr
-
     }
 
     .solution-image {
 
         height: 220px
-
     }
 
     .solution-body p {
 
         min-height: 0
-
     }
 
     .brand-list {
@@ -1471,7 +1329,6 @@ a {
         grid-template-columns: repeat(2, 1fr);
 
         margin-top: 35px
-
     }
 
     .brand-list div {
@@ -1479,49 +1336,41 @@ a {
         min-height: 75px;
 
         border-bottom: 1px solid #39434c
-
     }
 
     .brand-list div:nth-child(2n) {
 
         border-right: 0
-
     }
 
     .brand-list div:nth-child(4) {
 
         border-right: 0
-
     }
 
     .technical {
 
         grid-template-columns: 1fr
-
     }
 
     .technical-image {
 
         min-height: 260px
-
     }
 
     .technical-content {
 
         padding: 60px 24px
-
     }
 
     .catalog-inner .button {
 
         margin-top: 25px
-
     }
 
     .contact-card {
 
         padding: 22px
-
     }
 
     .footer-main {
@@ -1529,13 +1378,11 @@ a {
         padding: 25px 0;
 
         flex-wrap: wrap
-
     }
 
     .footer-main p {
 
         width: calc(100% - 150px)
-
     }
 
     .footer-bottom {
@@ -1547,13 +1394,11 @@ a {
         align-items: flex-start;
 
         flex-direction: column
-
     }
 
     .hero-caption {
 
         display: none
-
     }
 
 }
@@ -1622,8 +1467,6 @@ a {
 
 }
 
-/\* MARCAS: LOGOTIPOS \*/
-
 .brand-list {
 
     display: grid;
@@ -1687,8 +1530,6 @@ a {
     }
 
 }
-
-/\* SERVICIO TECNICO - DISEÑO RENOVADO \*/
 
 .technical.section {
 
@@ -2044,8 +1885,6 @@ a {
 
 }
 
-/\* Botón explorar catálogo DIAEMEX \*/
-
 .button-red {
 
     display: inline-flex;
@@ -2117,8 +1956,6 @@ a {
     transform: translate(3px, -3px);
 
 }
-
-/\* Botón de instalación DIAEMEX \*/
 
 .button-install {
 
@@ -2250,8 +2087,6 @@ a {
 
 }
 
-/\* BOTÓN INSTALAR DIAEMEX \*/
-
 .install-app-button {
 
     display: inline-flex;
@@ -2295,8 +2130,6 @@ a {
     box-shadow: 0 8px 20px rgba(229, 27, 35, .3);
 
 }
-
-/\* VENTANA DE INSTALACIÓN \*/
 
 .install-modal-overlay {
 
@@ -2401,8 +2234,6 @@ a {
     }
 
 }
-
-/\* BOTÓN PREMIUM INSTALAR DIAEMEX \*/
 
 .nav-install-button {
 
@@ -2567,8 +2398,6 @@ a {
     }
 
 }
-
-/\* BOTÓN PREMIUM INSTALAR DIAEMEX \*/
 
 .button.button-install {
 
